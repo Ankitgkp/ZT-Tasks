@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+    <style>
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        
+        .content {
+            height: 2000px;
+            background-color: lightblue;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </header>
+    
+    <div class="content">
+        <h1>Scroll Down</h1>
+        <p>Keep scrolling to see the navbar stick to the top.</p>
+        <p>The navbar will stay at the top when you scroll.</p>
+    </div>
+</body>
+</html>
