@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate a bouncing ball</title>
+</head>
+
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: black;
+    }
+
+    .ball {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: bounce 1s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(0, -100px);
+        }
+    }
+    </style>
+
+<body>
+    <div class="ball"></div>
+</body>
+</html>

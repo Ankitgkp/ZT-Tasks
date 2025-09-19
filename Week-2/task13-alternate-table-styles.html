@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate Table Styles</title>
+    <style>
+        table {
+            width: 60%;
+            margin: 40px auto;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: white;
+        }
+        tr:nth-child(odd) {
+            background-color: lightblue;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Alternate Row Colors</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Ankit</td>
+            <td>20</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Muskan</td>
+            <td>20</td>
+            <td>Gorakhpur</td>
+        </tr>
+        <tr>
+            <td>Niraj</td>
+            <td>21</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>19</td>
+            <td>Haryana</td>
+        </tr>
+    </table>
+</body>
+</html>

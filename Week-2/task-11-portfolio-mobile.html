@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-friendly Portfolio</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <div class="container">
+        <img src="https://picsum.photos/id/1025/200/150" alt="Project 1">
+        <img src="https://picsum.photos/id/1015/200/150" alt="Project 2">
+        <img src="https://picsum.photos/id/1035/200/150" alt="Project 3">
+        <img src="https://picsum.photos/id/1016/200/150" alt="Project 4">
+        <img src="https://picsum.photos/id/1041/200/150" alt="Project 5">
+        <img src="https://picsum.photos/id/1050/200/150" alt="Project 6">
+        <img src="https://picsum.photos/id/1062/200/150" alt="Project 7">
+        <img src="https://picsum.photos/id/1074/200/150" alt="Project 8">
+    </div>
+</body>
+</html>

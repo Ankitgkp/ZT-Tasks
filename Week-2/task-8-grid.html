@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Grid Layout</title>
+</head>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        border: 2px solid black;
+        padding: 10px;
+        background: #fafafa;
+    }
+    .container img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <h2 style="text-align:center;">Image Gallery</h2>
+    <div class="container">
+        <img src="https://picsum.photos/id/1025/200/150" >
+        <img src="https://picsum.photos/id/1015/200/150" >
+        <img src="https://picsum.photos/id/1035/200/150" >
+        <img src="https://picsum.photos/id/1016/200/150" >
+        <img src="https://picsum.photos/id/1041/200/150" >
+        <img src="https://picsum.photos/id/1050/200/150" >
+        <img src="https://picsum.photos/id/1062/200/150" >
+        <img src="https://picsum.photos/id/1074/200/150" >
+    </div>
+</body>
+</html>
