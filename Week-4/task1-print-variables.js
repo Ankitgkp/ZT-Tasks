@@ -1,4 +1,3 @@
-// Declare variables of different types
 var num = 42;
 var str = "Hello, world!";
 var bool = true;
